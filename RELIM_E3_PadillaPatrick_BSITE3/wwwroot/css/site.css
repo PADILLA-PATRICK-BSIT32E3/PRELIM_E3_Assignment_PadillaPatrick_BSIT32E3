@@ -1,0 +1,46 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.navbar {
+    background-color: #f8f9fa; /* Set your desired background color */
+    padding: 10px;
+}
+
+/* Style for the navigation links */
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+}
+
+.nav-item {
+    margin-right: 20px; /* Add spacing between links */
+    transition: background-color 0.3s, border-radius 0.3s; /* Smooth transition on hover */
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px /* Rounded borders */
+}
+
+.nav-item:hover {
+    background-color: rgb(235, 204, 204); /* Background color on hover */
+    color: #206CC3; /* Text color on hover */
+
+}

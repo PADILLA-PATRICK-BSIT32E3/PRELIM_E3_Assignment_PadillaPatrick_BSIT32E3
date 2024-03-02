@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/RELIM_E3_PadillaPatrick_BSITE3/bin/Debug/net8.0
+/RELIM_E3_PadillaPatrick_BSITE3/obj
+/.vs/RELIM_E3_PadillaPatrick_BSITE3/FileContentIndex
